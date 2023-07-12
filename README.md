@@ -19,6 +19,8 @@ This solution has a high scalability as it doesn’t have any work load and work
 
 ## How we built it
 The drowsiness detection and alert system was built using computer vision techniques and deep learning libraries. We utilized OpenCV and specifically the Dlib library for facial recognition and processing of images captured by Raspberry Pi cameras. The captured data was processed on the Raspberry Pi acting as an edge device. We integrated IBM Watson IoT cloud, storing the processed data in a Cloudant database through Node-RED, a programming tool provided by IBM. Notifications were sent via the Telegram messaging application using a Node-RED bot.
+![image](https://github.com/shruthi2608/AlertNap/assets/99944438/a9575e46-1a5d-4545-92ba-4ef10b478e50)
+
 
 ## Challenges we ran into
 During the development process, we encountered challenges such as selecting the most accurate and efficient library for facial recognition, which led us to choose Dlib. Additionally, optimizing the processing on the Raspberry Pi to achieve real-time performance was a challenge. Integrating the hardware with the IBM Cloud and ensuring seamless communication between the edge device and the cloud services also required careful attention.
