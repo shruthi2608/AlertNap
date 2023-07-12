@@ -30,7 +30,7 @@ The drowsiness detection and alert system was built using computer vision techni
 # Node Red Dashboard output for awake(Status = 0)
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/ace74c7f-e7f4-4cd9-9ce9-52a5f493f25b)
 # NodeRed Flow
-![Uploading image.png…]()
+![image](https://github.com/shruthi2608/AlertNap/assets/99944438/722527fb-12f3-40a5-953b-f1478704bd33)
 
 ## Challenges we ran into
 During the development process, we encountered challenges such as selecting the most accurate and efficient library for facial recognition, which led us to choose Dlib. Additionally, optimizing the processing on the Raspberry Pi to achieve real-time performance was a challenge. Integrating the hardware with the IBM Cloud and ensuring seamless communication between the edge device and the cloud services also required careful attention.
