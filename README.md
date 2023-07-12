@@ -43,3 +43,6 @@ Through this project, we gained practical experience in computer vision, deep le
 
 ## What's next for AlertNap
 The future scope for AlertNap is promising, as there is a growing need for effective solutions to combat drowsy driving andprevent accidents caused by driver fatigue. Future systems can leverage emerging sensor technologies, such as infrared cameras, eye-tracking devices, and biosensors, to enhance drowsiness detection accuracy. These sensors can monitor various physiological and behavioral indicators of drowsiness, including eye movements, blink patterns, facial expressions, heart rate, and brain activity.Future systems can provide real-time monitoring and feedback to the driver. For example, they can use audio or visual cues to alert the driver when drowsiness is detected, encouraging them to take a break or engage in activities that promote alertness, such as opening the windows or playing stimulating music.
+
+## YouTube link
+https://youtu.be/yadyrNbW3EA
