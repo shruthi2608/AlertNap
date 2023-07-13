@@ -19,17 +19,17 @@ This solution has a high scalability as it doesn’t have any work load and work
 
 ## How we built it
 The drowsiness detection and alert system was built using computer vision techniques and deep learning libraries. We utilized OpenCV and specifically the Dlib library for facial recognition and processing of images captured by Raspberry Pi cameras. The captured data was processed on the Raspberry Pi acting as an edge device. We integrated IBM Watson IoT cloud, storing the processed data in a Cloudant database through Node-RED, a programming tool provided by IBM. Notifications were sent via the Telegram messaging application using a Node-RED bot.
-# State: Not Drowsy (Eyes opened)
+*State: Not Drowsy (Eyes opened)*
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/1abe76e8-17fb-4d51-a41a-265d4020895b)
-# State: Drowsy (Eyes closed)
+*State: Drowsy (Eyes closed)*
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/a9575e46-1a5d-4545-92ba-4ef10b478e50)
-# IBM Watson IOT Configuration
+*IBM Watson IOT Configuration*
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/10cc34d2-f32c-4c45-a176-2565262541a5)
-# Node Red Dashboard output for drowsiness(Status = 1)
+*Node Red Dashboard output for drowsiness(Status = 1)*
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/fc8b7f5c-8562-4a6f-b7cd-29288744dc43)
-# Node Red Dashboard output for awake(Status = 0)
+*Node Red Dashboard output for awake(Status = 0)*
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/ace74c7f-e7f4-4cd9-9ce9-52a5f493f25b)
-# NodeRed Flow
+*NodeRed Flow*
 ![image](https://github.com/shruthi2608/AlertNap/assets/99944438/722527fb-12f3-40a5-953b-f1478704bd33)
 
 ## Challenges we ran into
